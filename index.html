@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>ChronoPay</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+</head>
+<body>
+	<div class="container__all">
+		<div class="overlay">
+			
+		</div>
+		<video loop muted autoplay poster="video/plane.jpg" class="fullscreen-bg__video">
+			<source src="video/video_bg.mp4" type="video/mp4">
+			<source src="video/plane.webm" type="video/webm">
+		</video>
+		<header class="header">
+			<div class="fat-nav">
+				<div class="fat-nav__wrapper">
+					<div class="fat__logo">
+						<img src="img/logo.png" alt="">
+					</div>
+					
+					<ul>
+						<li><a href="https://www.chronopay.com/ru/about">О компании</a></li>
+						<li><a href="https://chronopay.com/blog/ru">Новости</a></li>
+						<li><a href="https://chronopay.com/ru/contacts">Контакты</a></li>
+						<li class="fat__li-1">
+							<a href="tel:4957803060">+7 495 780 30 60</a>
+						</li>
+						<li class="fat__li-2">
+							<a href="https://chronopay.com/#login-modal">Личный кабинет</a>
+						</li>
+						<li class="fat__lang">
+							<a  class="fat__li-ru" href="#">Russian</a>
+							<a  class="fat__li-en" href="#">English</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="header__top animated fadeInDown delay-1s">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col">
+							<ul class="header__menu-left d-flex">
+								<li class="header__item-left">
+									<a href="index.html" class="first-left"><img src="img/logo.png" alt=""></a>
+								</li>
+								<li class="header__item-left header__item-left-display">
+									<a href="https://www.chronopay.com/ru/about">О компании</a>
+								</li>
+								<li class="header__item-left header__item-left-display">
+									<a href="https://chronopay.com/blog/ru">Новости</a>
+								</li>
+								<li class="header__item-left header__item-left-display">
+									<a href="https://chronopay.com/ru/contacts">Контакты</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col">
+							<ul class="header__menu-right d-flex">
+								<li class="header__item-right">
+									<a href="tel:4957803060">+7 495 780 30 60</a>
+								</li>
+								<li class="header__item-right header__item-right-ru-cab">
+									<a href="https://chronopay.com/#login-modal">Личный кабинет</a>
+								</li>
+								<li class="header__item-right header__item-right-ru">
+									<a href="#">Ru</a>
+								</li>
+								<li class="header__item-right header__item-right-en">
+									<a href="#">En</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__main">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col">
+							<div class="header__main_left">
+								<h1 class="animated fadeInUp fast">
+									ПРИНИМАЙ <br> ПЛАТЕЖИ ОНЛАЙН <br> ПО ВСЕМУ МИРУ
+								</h1>
+								<div class="header__main_left_text animated fadeInUp fast">
+									<p>
+										Chronopay – сервис по приему платежей за товары и услуги в интернете банковскими картами (VISA, Master, МИР, American Exspress, Duners Club, JCB International) от покупателей в любой точке земного шара.
+									</p>
+									<p>
+										Сегодня мы обработали <b>6'745'726'424</b> транзакций.
+									</p>
+								</div>
+								<div class="btnn animated fadeInUp fast">
+									<a href="https://chronopay.com/ru/connection" class="header__main_left_button1">Подключить</a>
+									<div class="btnn__glare"></div>
+									<div class="shine"></div>
+								</div>
+								<div class="btn_2 animated fadeInUp fast">
+									<a href="#form" class="header__main_left_button2 popup animated fadeInUp">Проконсультироваться</a>
+								</div>
+								
+								<div class="hidden">
+									<form id="form" class="form form_style" novalidate>
+										<!-- Hidden Required Fields -->
+										<input type="hidden" name="project_name" value="ChronoPay">
+										<input type="hidden" name="admin_email" value="sales@chronopay.com">
+										<input type="hidden" name="form_subject" value="Заявка с сайта Chrono Pay">
+										<!-- END Hidden Required Fields -->
+										<input type="text" name="Имя:" value="" class="input form-control" placeholder="Имя" required>
+										<input type="text" name="Телефон:" value="" class="input form-control" placeholder="Телефон" required>
+										<input type="text" name="Ваш сайт:" value="" class="input form-control" placeholder="Ваш сайт" required>
+										<div class="form-check">
+											<label>
+												<input type="checkbox" name="formcheck" checked="" class="checkfz" required=""> <p>Согласие на <a href="https://chronopay.com/docs/policy-for-processing-of-personal-data-rus.pdf">обработку персональных данных</a></p><br>
+											</label>
+										</div>
+										<button class="main-btn button">Оставить заявку</button>
+									</form>
+								</div>
+
+							</div>
+						</div>
+						<div class="col animated fadeIn delay-1s faster">
+							<div class="header__main_right">
+								<div class="tab">
+									<div class="tab__item tab__item-1">
+										<button class="tablinks tablinks-1 active" onclick="openCity(event, 'tab_1')">Просто</button>
+										<div class="tab__line"></div>
+										<div class="line-1 tab__line_anim"></div>
+									</div>
+									<div class="tab__item tab__item-2">
+										<button class="tablinks tablinks-2" onclick="openCity(event, 'tab_2')">Удобно</button>
+										<div class="tab__line"></div>
+										<div class="line-2"></div>
+									</div>	
+									<div class="tab__item tab__item-3">
+										<button class="tablinks tablinks-3" onclick="openCity(event, 'tab_3')">Безопасно</button>
+										<div class="tab__line"></div>
+										<div class="line-3"></div>
+									</div>
+								</div>
+								<!-- Tab content -->
+								<div id="tab_1" class="tabcontent tabcontent_1">
+									<ul class="tab__list">
+										<li class="list__items list__items-1">
+											<img src="img/tab_1-1.svg" alt="">
+											<p>Бесплатное подключение, абонентская плата отсутствует</p>
+										</li>
+										<li class="list__items list__items-2">
+											<img src="img/tab_1-2.svg" alt="">
+											<p>Быстрое подключение – минимальный пакет документов, один рабочий день</p>
+										</li>
+										<li class="list__items list__items-3">
+											<img src="img/tab_1-3.svg" alt="">
+											<p>Подключение автоматических (рекуррентных) платежей</p>
+										</li>
+										<li class="list__items list__items-4">
+											<img src="img/tab_1-4.svg" alt="">
+											<p>Персонализация платежных страниц под бренд продавца</p>
+										</li>
+										<li class="list__items list__items-5">
+											<img src="img/tab_1-5.svg" alt="">
+											<p>Возможность подключения торговых терминалов</p>
+										</li>
+									</ul>
+								</div>
+
+								<div id="tab_2" class="tabcontent">
+									<ul class="tab__list">
+										<li class="list__items list__items-1">
+											<img src="img/tab_2-1.svg" alt="">
+											<p>Взаиморасчеты в течение суток</p>
+										</li>
+										<li class="list__items list__items-2">
+											<img src="img/tab_2-2.svg" alt="">
+											<p>Доступная, гибкая комиссия. Больше оборот, меньше комиссия.</p>
+										</li>
+										<li class="list__items list__items-3">
+											<img src="img/tab_2-3.svg" alt="">
+											<p>Формирование счета на оплату для покупателя</p>
+										</li>
+										<li class="list__items list__items-4">
+											<img src="img/tab_2-4.svg" alt="">
+											<p>Персонализация платежных страниц под бренд продавца</p>
+										</li>
+									</ul> 
+								</div>
+
+								<div id="tab_3" class="tabcontent">
+									<ul class="tab__list">
+										<li class="list__items list__items-1">
+											<img src="img/tab_3-1.svg" alt="">
+											<p>Поддержка пользователей 24x7</p>
+										</li>
+										<li class="list__items list__items-2">
+											<img src="img/tab_3-2.svg" alt="">
+											<p>Защита платежей от мошенничества</p>
+										</li>
+										<li class="list__items list__items-3">
+											<img src="img/tab_3-3.svg" alt="">
+											<p>Интеграция с наиболее распространёнными CMS (ссылка на документацию по интеграции)</p>
+										</li>
+										<li class="list__items list__items-4">
+											<img src="img/tab_3-4.svg" alt="">
+											<p>Обработка персональных данных в соответствии с требованиями ФЗ152, хранение на территории РФ</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="serv__btn">
+								<a href="https://chronopay.com/ru/services/" class="right__button">Все сервисы</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<footer class="footer animated fadeInUp delay-1s">
+			<div class="container-fluid footer-1">
+				<div class="row align-items-center">
+					<div class="col">
+						<p class="footer__left">
+							© 2003—2019 ChronoPay
+						</p>
+					</div>
+					<div class="col">
+						<ul class="footer__right">
+							<li class="footer__item"><a href="https://www.instagram.com/chronopay/"><img src="img/instagram.svg" alt=""></a></li>
+							<li class="footer__item"><a href="https://vk.com/chronopay2003"><img src="img/vk.svg" alt=""></a></li>
+							<li class="footer__item"><a href="https://twitter.com/ChronoPay"><img src="img/twitter.svg" alt=""></a></li>
+							<li class="footer__item"><a href="https://www.facebook.com/chronopay/?ref=hl"><img src="img/facebook.svg" alt=""></a></li>
+							<li class="footer__item"><a href="https://www.linkedin.com/company/chronopay?trk=top_nav_home"><img src="img/linkedin.svg" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid footer__dispaly">
+				<div class="row align-items-center">
+					<div class="col-12">
+						<ul class="footer__right">
+							<li class="footer__item"><a href="https://www.instagram.com/chronopay/"><img src="img/instagram.svg" alt=""></a></li>
+							<li class="footer__item"><a href="https://vk.com/chronopay2003"><img src="img/vk.svg" alt=""></a></li>
+							<li class="footer__item"><a href="https://twitter.com/ChronoPay"><img src="img/twitter.svg" alt=""></a></li>
+							<li class="footer__item"><a href="https://www.facebook.com/chronopay/?ref=hl"><img src="img/facebook.svg" alt=""></a></li>
+							<li class="footer__item"><a href="https://www.linkedin.com/company/chronopay?trk=top_nav_home"><img src="img/linkedin.svg" alt=""></a></li>
+						</ul>
+					</div>
+					<div class="col-12">
+						<p class="footer__left">
+							© 2003—2019 ChronoPay
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</footer>	
+	</div>
+				
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
